@@ -1,0 +1,21 @@
+{
+  "name": "kj-parent",
+  "version": "1.0.0",
+  "description": "parent package use kj-package",
+  "main": "index.js",
+  "scripts": {
+    "testbuild": "node dist/main.js",
+    "build": "webpack --config webpack.config.js --mode=development",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "kj-package": "^1.0.9",
+    "react": "^16.12.0",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  }
+}
